@@ -27,6 +27,7 @@ body {
   color: #000000;
 }
 #es-valentino.es-valentino .es-title {
+  position: relative;
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -41,6 +42,14 @@ body {
   color: #000;
   text-align: center;
   margin-bottom: 30px;
+}
+#es-valentino.es-valentino .es-title::after {
+  position: absolute;
+  content: "";
+  bottom: -22px;
+  left: 0;
+  width: 100%;
+  border-bottom: 3px solid black;
 }
 #es-valentino.es-valentino .es-title span {
   font-weight: 700;
@@ -119,16 +128,12 @@ body {
   text-decoration: none;
   transition: all 0.3s ease;
 }
-#es-valentino.es-valentino .es-cross {
-  padding: 0 16px;
-}
 #es-valentino.es-valentino .es-cross__container {
   display: flex;
   flex-wrap: wrap;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  padding: 0 8px;
   margin: 0 -16px;
 }
 #es-valentino.es-valentino .es-cross__img {
@@ -586,7 +591,7 @@ body {
     left: 47%;
   }
   #es-valentino.es-valentino .es-title {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     font-size: 30px;
     text-align: center;
   }

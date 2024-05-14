@@ -51,6 +51,7 @@ body {
   }
 
   .es-title {
+    position: relative;
     @include text;
     font-family: $secondary;
     font-weight: 500;
@@ -60,6 +61,15 @@ body {
     color: #000;
     text-align: center;
     margin-bottom: 30px;
+
+    &::after {
+      position: absolute;
+      content: '';
+      bottom: -22px;
+      left: 0;
+      width: 100%;
+      border-bottom: 3px solid black;
+    }
 
     & span {
       font-weight: 700;
@@ -146,15 +156,12 @@ body {
   }
 
   .es-cross {
-    padding: 0 16px;
-
     &__container {
       display: flex;
       flex-wrap: wrap;
       flex-flow: column;
       justify-content: center;
       align-items: center;
-      padding: 0 8px;
       margin: 0 -16px;
     }
     &__img {
@@ -629,7 +636,7 @@ body {
     }
 
     .es-title {
-      margin-bottom: 50px;
+      margin-bottom: 60px;
       font-size: 30px;
       text-align: center;
     }
