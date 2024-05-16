@@ -56,8 +56,6 @@ body {
 }
 #es-valentino.es-valentino .es-banner {
   padding-bottom: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 #es-valentino.es-valentino .es-banner__image {
   max-width: 100%;
@@ -430,10 +428,6 @@ body {
 #es-valentino.es-valentino .es-info__link:hover {
   color: #000000;
   background: #ffffff;
-}
-#es-valentino.es-valentino .es-video {
-  padding-left: 15px;
-  padding-right: 15px;
 }
 #es-valentino.es-valentino .es-video__wrapper {
   position: relative;

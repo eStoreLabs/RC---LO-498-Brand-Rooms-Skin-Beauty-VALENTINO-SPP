@@ -78,8 +78,6 @@ body {
 
   .es-banner {
     padding-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
 
     &__image {
       @include img;
@@ -434,9 +432,6 @@ body {
   }
 
   .es-video {
-    padding-left: 15px;
-    padding-right: 15px;
-
     &__wrapper {
       position: relative;
       margin-bottom: 50px;
