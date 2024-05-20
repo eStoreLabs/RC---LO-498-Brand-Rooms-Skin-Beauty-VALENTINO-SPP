@@ -79,9 +79,17 @@ body {
   .es-banner {
     padding-bottom: 30px;
 
+    &--footer {
+      padding-bottom: 0;
+    }
+
     &__image {
       @include img;
       margin-bottom: 30px;
+
+      &--footer {
+        margin-bottom: 0;
+      }
     }
 
     &__description {
@@ -434,7 +442,7 @@ body {
   .es-video {
     &__wrapper {
       position: relative;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
     }
     &__player {
       display: block;
@@ -786,6 +794,10 @@ body {
 
     .es-video {
       margin-bottom: 50px;
+
+      &__wrapper {
+        margin-bottom: 50px;
+      }
     }
 
     .es-banner {

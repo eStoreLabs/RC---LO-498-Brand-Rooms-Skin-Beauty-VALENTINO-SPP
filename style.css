@@ -57,11 +57,17 @@ body {
 #es-valentino.es-valentino .es-banner {
   padding-bottom: 30px;
 }
+#es-valentino.es-valentino .es-banner--footer {
+  padding-bottom: 0;
+}
 #es-valentino.es-valentino .es-banner__image {
   max-width: 100%;
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+#es-valentino.es-valentino .es-banner__image--footer {
+  margin-bottom: 0;
 }
 #es-valentino.es-valentino .es-banner__description {
   margin-bottom: 30px;
@@ -431,7 +437,7 @@ body {
 }
 #es-valentino.es-valentino .es-video__wrapper {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 #es-valentino.es-valentino .es-video__player {
   display: block;
@@ -708,6 +714,9 @@ body {
     margin-bottom: 70px;
   }
   #es-valentino.es-valentino .es-video {
+    margin-bottom: 50px;
+  }
+  #es-valentino.es-valentino .es-video__wrapper {
     margin-bottom: 50px;
   }
   #es-valentino.es-valentino .es-banner__link {
