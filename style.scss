@@ -448,6 +448,7 @@ body {
       display: block;
       margin: 0 auto;
       width: 100%;
+      -o-object-fit: cover;
       object-fit: cover;
       min-height: 225px;
     }
@@ -520,15 +521,12 @@ body {
     position: absolute;
     bottom: 15px;
     left: 50%;
-    -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     text-align: center;
   }
 
   .slick-dots {
     position: absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 0 4px;
     padding: 0;
@@ -580,11 +578,7 @@ body {
         max-width: 628px;
         margin: 0 auto;
         gap: 10px;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-flow: row;
         flex-flow: row;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         align-items: flex-end;
       }
@@ -817,6 +811,18 @@ body {
     }
   }
 
+  @-webkit-keyframes slidedown {
+    from {
+      opacity: 0;
+      transform: translateY(-32px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
   @keyframes slidedown {
     from {
       opacity: 0;
@@ -826,6 +832,18 @@ body {
     to {
       opacity: 1;
       transform: translateY(0);
+    }
+  }
+
+  @-webkit-keyframes slideright {
+    from {
+      opacity: 0.3;
+      transform: translateX(-100px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
     }
   }
 
